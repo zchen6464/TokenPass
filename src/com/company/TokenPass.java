@@ -43,7 +43,7 @@ public class TokenPass {
     {
         for(int i = 0; i < board.length; i++)
         {
-            System.out.println("Player " + i + ": " + board[i] + "Tokens");
+            System.out.println("Player " + (i + 1)  + ": " + board[i] + "Tokens");
         }
     }
 
